@@ -1,8 +1,13 @@
+import Link from 'next/link'
 import React from 'react'
+import Navigation from './Navigation'
 
 const Header = () => {
   return (
-    <header>Header</header>
+    <header>
+      <Navigation />
+
+    </header>
   )
 }
 
